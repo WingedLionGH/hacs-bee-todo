@@ -1,5 +1,5 @@
 {
-  "domain": "hacs_bee_todo",
+  "domain": "bee_todo",
   "name": "Bee Todo",
   "version": "1.0.0",
   "documentation": "https://github.com/WingedLionGH/hacs-bee-todo",
