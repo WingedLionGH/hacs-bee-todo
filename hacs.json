@@ -1,0 +1,9 @@
+{
+  "name": "Bee Todo",
+  "content_in_root": false,
+  "domains": ["bee_todo"],
+  "country": "DE",
+  "homeassistant": "2023.0.0",
+  "iot_class": "local_push",
+  "render_readme": true
+}
