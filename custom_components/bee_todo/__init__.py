@@ -13,7 +13,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
     hass.http.register_view(TodoApiView(hass, manager))
 
     # Panel registrieren
-    await frontend.async_register_built_in_panel(
+    frontend.async_register_built_in_panel(
         hass,
         component_name="custom",
         sidebar_title="Bee Todo",
