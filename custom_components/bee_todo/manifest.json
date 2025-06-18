@@ -6,5 +6,17 @@
   "requirements": [],
   "dependencies": [],
   "codeowners": ["@WingedLionGH"],
-  "config_flow": true
+  "config_flow": true,
+  "panel_custom": [
+    {
+      "name": "bee_todo_panel",
+      "url_path": "bee_todo",
+      "sidebar_title": "Bee Todo",
+      "sidebar_icon": "mdi:format-list-checkbox",
+      "module_url": "/bee_todo_panel.js",
+      "require_admin": false,
+      "embed_iframe": false,
+      "trust_external_script": false
+    }
+  ]
 }
