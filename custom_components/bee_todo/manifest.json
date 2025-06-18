@@ -1,0 +1,10 @@
+{
+  "domain": "bee_todo",
+  "name": "Bee Todo",
+  "version": "1.0.0",
+  "documentation": "https://github.com/WingedLionGH/hacs-bee-todo",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@WingedLionGH"],
+  "config_flow": true
+}
