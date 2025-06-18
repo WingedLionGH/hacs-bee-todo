@@ -8,16 +8,5 @@
   "codeowners": [
     "Martin Jacob"
   ],
-  "panel_custom": [
-    {
-      "name": "bee_todo_panel",
-      "url_path": "bee_todo",
-      "sidebar_title": "HACS Todo",
-      "sidebar_icon": "mdi:format-list-checkbox",
-      "module_url": "bee_todo_panel.js",
-      "require_admin": false,
-      "config": {}
-    }
-  ],
   "config_flow": true
 }
