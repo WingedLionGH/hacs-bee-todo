@@ -12,5 +12,5 @@ class BeeTodoConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
         return self.async_show_form(
             step_id="user",
-            data_schema=vol.Schema({})
+            data_schema=vol.Schema({}),
         )

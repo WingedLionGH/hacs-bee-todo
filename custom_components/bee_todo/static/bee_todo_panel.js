@@ -1,13 +1,6 @@
 class BeeTodoPanel extends HTMLElement {
   connectedCallback() {
-    this.innerHTML = `<h1>Bee Todo</h1><div id="todo-list">Loading...</div>`;
-    fetch("/api/bee_todo")
-      .then(r => r.json())
-      .then(data => {
-        this.querySelector("#todo-list").innerHTML = data
-          .map(t => `<div>${t.title}</div>`).join("");
-      })
-      .catch(e => console.error(e));
+    this.innerHTML = "<h1>Bee Todo</h1><p>JS Panel geladen!</p>";
   }
 }
 customElements.define("bee-todo-panel", BeeTodoPanel);
