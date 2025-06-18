@@ -13,7 +13,7 @@
       "url_path": "bee_todo",
       "sidebar_title": "Bee Todo",
       "sidebar_icon": "mdi:format-list-checkbox",
-      "module_url": "/custom_components/bee_todo/bee_todo_panel.js",
+      "module_url": "/custom_components/bee_todo/static/bee_todo_panel.js",
       "require_admin": false
     }
   ]
