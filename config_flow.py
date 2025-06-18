@@ -1,8 +1,7 @@
-
 from homeassistant import config_entries
 import voluptuous as vol
 
-DOMAIN = "bee_todo"
+from .const import DOMAIN
 
 class BeeTodoConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
     VERSION = 1
@@ -13,6 +12,5 @@ class BeeTodoConfigFlow(config_entries.ConfigFlow, domain=DOMAIN):
 
         return self.async_show_form(
             step_id="user",
-            data_schema=vol.Schema({}),
-            description_placeholders={},
+            data_schema=vol.Schema({})
         )
