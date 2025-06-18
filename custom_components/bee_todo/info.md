@@ -1,1 +1,0 @@
-This Home Assistant Custom Component provides a simple but flexible Todo List.
